@@ -6,6 +6,6 @@ public class Immagini extends Media{
     public Immagini(String title, int luce) {
         super(title);
         this.luce = luce;
-        
+
     }
 }

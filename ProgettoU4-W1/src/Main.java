@@ -1,7 +1,11 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import Elements.*;
+
 public class Main {
     public static void main(String[] args) {
+
+        Audio canzone1 = new Audio ("Sultans of Swing", 5, 3);
+
+        canzone1.Play();
 
         }
     }
