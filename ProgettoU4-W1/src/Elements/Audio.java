@@ -15,7 +15,9 @@ public class Audio  extends Media implements Volume, Player {
 
     // Getter
 
-
+    public String getTitle(){
+        return title;
+    }
     public int getDurata() {
         return durata;
     }
@@ -40,16 +42,15 @@ public class Audio  extends Media implements Volume, Player {
 
     @Override
     public void Play() {
+        System.out.println(getTitle());
         for (int i = 0; i < durata ; i++) {
             String printVolume = new String("") ;
             for (int j = 0; j < volume ; j++) {
                 printVolume = "!" + printVolume;
             }
             System.out.println(printVolume);
+
         }
-
-
-
-
+        System.out.println("La canzone è finita");;
     }
 }
