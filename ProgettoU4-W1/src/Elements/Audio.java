@@ -18,13 +18,6 @@ public class Audio  extends Media implements Volume, Player {
     public String getTitle(){
         return title;
     }
-    public int getDurata() {
-        return durata;
-    }
-
-    public int getVolume() {
-        return volume;
-    }
 
     // Interfacce
 
